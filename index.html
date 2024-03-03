@@ -18,11 +18,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500,600,700,800,900;600&display=swap" rel="stylesheet">
     <!--link do css-->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
 </head>
 <body>
     <header>
-        <a href="#" class="logo"><i class='bx bx-headphone'></i>SoundLive</a>
+        <a href="#" class="logo"><i class='bx bx-headphone'></i>SoundLive</a> <!--link Icone e nome produto-->
 
         <ul class="navegação"> <!--menu-->
             <li><a href="#">Visão geral</a></li>
@@ -31,7 +32,7 @@
             <li><a href="#">Contate-nos</a></li>
         </ul>
 
-        <div class="header-icons"> <!--icone menu-->
+        <div class="header-icons"> <!--icone de carrinho e menu no topo da pg-->
             <i class='bx bx-cart-download'></i>
             <div id="menu">
                 <i class='bx bx-menu'></i>
@@ -40,17 +41,35 @@
 
     </header>
 
-    <section class="nome">
+    <section class="home">
         <div class="home-img">
             <img src="imagens/product1.png" class="one">
-        </div> <!--home-img-->
+        </div> <!--Mostra a img-->
 
         <div class="home-text">
-            <h1>Sony <br> Headphone pulse 3D</h1>
+            <h1><strong>Sony</strong> <br> Headphone pulse 3D</h1>
             <p>A maneira mais inteligente e confortavel de ouvir</p>
             <h3>$199.00</h3>
             <a href="#" class="btn">Comprar</a>
-        </div> <!--home-text-->
-    </section><!--home-->
+        </div> <!--Mostar o texto-->
+    </section><!--Mosta ibfo do produto-->
+
+    <div class="main">
+        
+        <div class="row">
+            <li><img src="imagens/main1.png" onclick="slider('imagens/product1.png')"></li>
+        </div> <!--seletor a img 1-->
+
+        <div class="row2">
+            <li><img src="imagens/main2.png" onclick="slider('imagens/product2.png')"></li>
+        </div> <!--seletor a img 2-->
+
+        <div class="row3">
+            <li><img src="imagens/main3.png" onclick="slider('imagens/product3.png')"></li>
+        </div> <!--seletor a img 3-->
+
+    </div> <!--seleciona foto-->
+
+    
 </body>
 </html>
