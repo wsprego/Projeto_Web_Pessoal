@@ -1,35 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto pessoal de WEB</title>
-    <link rel="shortcut icon" href="imagens/icons8-favicon-32.png" type="image/x-icon"> <!--add favicon-->
+    <title>Fone de ouvido</title>
+
+    <link rel="shortcut icon" href="imagens/icons8-music-64.png" type="image/x-icon"> <!--add favicon-->
+    <!--link de icones-->
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+     <!-- or -->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--link de font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500,600,700,800,900;600&display=swap" rel="stylesheet">
+    <!--link do css-->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <!--add elementos no corpo da pagina-->
-    <h1>Projeto pessoal de WEB</h1> <!--add titulo de maior valor-->
-    <p>
-        Meu nome é <strong>wesley</strong> e este meu pojeto pessoal
-    </p> <!--add paragrafo-->
+    <header>
+        <a href="#" class="logo"><i class='bx bx-headphone'></i>SoundLive</a>
 
-    <hr> <!--linha horisontal-->
+        <ul class="navegação"> <!--menu-->
+            <li><a href="#">Visão geral</a></li>
+            <li><a href="#">Especificações</a></li>
+            <li><a href="#">Analisar</a></li>
+            <li><a href="#">Contate-nos</a></li>
+        </ul>
 
-    <h2>Lula</h2>
-    <img src="imagens/e1c3e2a6-44a4-4282-b75d-041ed2843291.webp" alt="lula" style="width: 500px; height: 300px;"> <!--add imagem-->
+        <div class="header-icons"> <!--icone menu-->
+            <i class='bx bx-cart-download'></i>
+            <div id="menu">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
 
-    <p>
-        Imagem enviada de Lula para Bolsonario ápos ter ganhado as eleições
-    </p> <!--add paragrafo-->
+    </header>
 
-    <hr> <!--linha horisontal-->
+    <section class="nome">
+        <div class="home-img">
+            <img src="imagens/product1.png" class="one">
+        </div> <!--home-img-->
 
-    <h2>Código C</h2>
-    <img src="imagens/Captura de tela 2023-01-12 194539.png" alt="código em C" style="width: 500px; height: 300px;"> <!--add imagem-->
-    <br>
-    <p>
-        Imagem de um código em C
-
-    </p><!--add paragrafo-->
+        <div class="home-text">
+            <h1>Sony <br> Headphone pulse 3D</h1>
+            <p>A maneira mais inteligente e confortavel de ouvir</p>
+            <h3>$199.00</h3>
+            <a href="#" class="btn">Comprar</a>
+        </div> <!--home-text-->
+    </section><!--home-->
 </body>
 </html>
