@@ -9,8 +9,8 @@
 
 :root{
     --bg-color: var(--bg-color)#1d2631;
-    --tex-color: #fff;
-    --main-color: #34e7f8;
+    --tex-color: #9dc79c;
+    --main-color: #5cf225;
     --other-color: #fcfcfc;
     --h1-font: 4rem;
     --p-font: 1rem; 
@@ -102,7 +102,7 @@ header{
 }
 
 strong{
-    color: #b6f9ff;
+    color: var(--main-color);
 }
 .home-text h1{
     font-size: var(--h1-font);
@@ -111,10 +111,11 @@ strong{
 }
 
 .home-text p{
-    color: #ffffff99;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 20px;
     font-weight: 400;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    margin-right: 40px;
 }
 
 .home-text h3{
@@ -144,7 +145,7 @@ strong{
 }
 
 .btn:hover{
-    background: #b6f9ff;
+    background: #22ff00;
     border: 2px solid #000;
     color: #000;
     transform: translateY(-8px);
